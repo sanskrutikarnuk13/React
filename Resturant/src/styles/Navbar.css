@@ -1,0 +1,40 @@
+.Navbar{
+    height: 4.5rem;
+}
+
+.navbarList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap:40px;
+    font-size: 20px;
+    
+}
+.NavIcon p{
+    font-size:30px ;
+    font-family:fantasy
+}
+
+.navbarList li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.MenuList{
+    list-style: none;
+   margin-top: 20px;
+}
+
+.MenuList li{
+    margin-top: 30px;
+}
+.MenuList li a{
+     text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.active{
+   color: aquamarine;
+}

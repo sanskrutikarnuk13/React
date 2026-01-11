@@ -1,0 +1,87 @@
+.home{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+
+}
+.homeContainer{
+    margin-left: 15px;
+}
+
+.homeContainer h1{
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.home .homeContainer p{
+    margin-top: 15px;
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+}
+.homeContainer button{
+    background-color: black;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.homeContainer button:hover{
+    cursor: pointer;
+    background-color: #07090a;
+    transition: all 0.3s ease-in;
+}
+
+@media only screen and (max-width:600px){
+    .home{
+        justify-content: center;
+        align-items: center;
+    }
+    .homeContainer{
+        margin-left: 0;
+        border-radius: 10px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(56, 56, 56);
+        color: white;
+    }
+    .home .homeContainer h1{
+        font-size: 40px;
+        height: 30px;
+        margin: 15px 0px;
+        color: white;
+    }
+    .home .homeContainer p{
+        font-size: 30px;
+        color: white;
+    }
+    .home .homeContainer button{
+        background-color: white;
+        color: black;
+        margin-bottom: 30px;
+    }
+    .home .homeContainer button:hover{
+        background-color: black;
+        color: white;
+    }
+}
